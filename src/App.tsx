@@ -58,7 +58,7 @@ function App() {
             </svg>
           </button>
           <iframe
-            src="http://10.0.0.77:3000"
+            src={import.meta.env.VITE_IFRAME_URL || 'http://10.0.0.77:3000'}
             title="Chatbot"
             className="chatbot-iframe"
             allow="microphone; camera"
