@@ -11,7 +11,7 @@ export default defineConfig({
   },
   preview: {
     host: '0.0.0.0', // Allow external connections for LocalTunnel
-    port: 4173,
+    port: 5175,
     strictPort: false,
   },
 })
