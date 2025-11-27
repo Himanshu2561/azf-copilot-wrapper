@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tunnel": "lt --port 5173",
-    "tunnel:preview": "lt --port 5175"
+    "tunnel": "lt --port 5173 --subdomain azf-copilot",
+    "tunnel:preview": "lt --port 5175 --subdomain azf-copilot"
   },
   "dependencies": {
     "react": "^19.2.0",
